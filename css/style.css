@@ -1,9 +1,17 @@
+/* Google Fonts: Roboto 400 e 700 Poppins 700 */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap");
+
+/* Reset */
+@import "/css/reset.css";
+
 /* Cores */
-:root {
-  --purple-bg: #290742;
-  --dark-bg: #170027;
-  --button-bg: #9e6dc2;
-  --white: #fff;
-  --light-purple: #fbf6ff;
-  --green: #4fff4b;
-}
+@import "/css/cores.css";
+
+/* Header */
+@import "/css/header.css";
+
+/* Intro */
+@import "/css/intro.css";
+
+/* Noticias Principais */
+@import "/css/principais.css";

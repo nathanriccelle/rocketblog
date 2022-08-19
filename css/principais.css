@@ -1,0 +1,16 @@
+.principal-bg {
+  background: var(--white);
+  color: #141414;
+}
+
+.principal-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 40px 4%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.principal-img img {
+  width: 70%;
+}
