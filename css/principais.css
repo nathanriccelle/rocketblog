@@ -9,8 +9,61 @@
   padding: 40px 4%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
 .principal-img img {
   width: 70%;
+}
+
+.principal-container span {
+  font-size: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+  display: block;
+}
+
+.principal-txt h2 {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+  color: var(--purple-bg);
+}
+
+.principal-txt p {
+  font-size: 0.875rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.125rem;
+}
+
+.principal-lateral h3 {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+  color: var(--purple-bg);
+}
+
+.principal-lateral p {
+  font-size: 0.875rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.125rem;
+}
+
+.divisor {
+  margin: 20px 0;
+  width: 100%;
+  height: 2px;
+  background: #f6f6f6;
+}
+
+@media (max-width: 600px) {
+  .principal-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .principal-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 }

@@ -99,4 +99,7 @@
   .menu ul {
     gap: 12px;
   }
+  .menu a:hover::before {
+    height: 10px;
+  }
 }

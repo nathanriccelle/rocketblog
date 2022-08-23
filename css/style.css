@@ -15,3 +15,6 @@
 
 /* Noticias Principais */
 @import "/css/principais.css";
+
+/* Destaques */
+@import "/css/destaques.css";
